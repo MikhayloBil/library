@@ -1,0 +1,13 @@
+.input {
+  padding: 10px;
+  border-color: blueviolet;
+  border-radius: 6px;
+  width: 300px;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  color: azure;
+  border-radius: 8px;
+  padding: 10px;
+}

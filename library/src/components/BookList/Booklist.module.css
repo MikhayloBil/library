@@ -1,0 +1,24 @@
+.input {
+  padding: 10px;
+  border-color: blueviolet;
+  border-radius: 6px;
+  width: 300px;
+}
+
+.btn {
+  background-color: rebeccapurple;
+  color: azure;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.books {
+  padding: 10px;
+  size: 32px;
+}
+
+.ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
