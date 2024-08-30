@@ -35,7 +35,6 @@ app.post("/books", (req, res) => {
 app.put("/books/:isbn", (req, res) => {
   const { isbn } = req.params;
   const updatedBook = req.body;
-  console.log(`Updating book with ISBN: ${isbn}`, updatedBook); // Лог
 
   books = books.map((book) =>
     book.isbn === isbn ? { ...book, ...updatedBook } : book
